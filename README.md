@@ -113,8 +113,8 @@
 1. Jupyter Notebook:
 2. Presentation slides PDF:
 3. Data Report:
-4. Dataset:
-5. README.md: Project Overview
+4. Dataset: [https://www.kaggle.com/datasets/abdullahorzan/moodify-dataset]
+5. README.md: [https://github.com/veenaledi/DS-Capstone-Project.git]
 6. .gitignore: Specifies files to ignore in version control
 
 
