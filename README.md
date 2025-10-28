@@ -5,11 +5,39 @@
 ## 1.Business Understanding
 *__1.1 Overview__*
 
+Music consumption today is highly personalized, with streaming platforms offering tailored recommendations based on listening habits. However, when it comes to emotional resonance, listeners still spend significant time manually curating playlists that match how they feel in the moment. The traditional approach of browsing by genre or artist fail to capture the subtle emotional layers that make a song resonate. This project will make discovering music more personalized and enjoyable for casual listeners, DJs, and streaming platform users
 
 *__1.2 Stakeholders__:*
- 
 
+1. Music Listeners – benefit from effortless mood based playlist creation and more emotionally resonant music discovery.
+2. Streaming Platforms – gain deeper user engagement and personalization features that differentiate their service.
+3. DJs & Curators – save time curating emotionally aligned sets for events or audiences.
 
+*__1.3 Problem Statement__*
+
+Even though music apps offer personalized recommendations, they still don’t understand how a listener feels. People often spend too much time searching for songs that match their mood because most platforms sort music by genre or artist, not emotion. This makes it hard to find the right songs quickly, and limits how personal and meaningful the listening experience can be.
+
+*__1.4 Business Objective__*
+
+To establish Auraly as an intelligent mood-based music classification system that enhances emotional connection and personalization in music streaming. By automating playlist creation through acoustic mood detection, Auraly aims to improve user engagement, simplify music curation, and unlock deeper, mood-driven discovery experiences across platforms.
+
+*__1.5 Project Objectives__*
+
+__Main Objective__
+
+To develop an intelligent music classification system that automatically identifies the emotional mood of songs using acoustic features, enabling more intuitive and personalized music experiences.
+
+__Specific Objectives__
+
+1. Enable automated mood based playlist generation - Reduce manual curation time by dynamically grouping songs based on emotional tone.
+2. Support personalized music discovery - Recommend songs that align with a listener’s current mood or emotional preferences.
+3. Enhance user engagement across music platforms - Improve retention and satisfaction by offering emotionally resonant listening experiences tailored to individual users.
+
+*__1.6 Research Questions__*
+
+1. How accurately can acoustic features be used to classify the emotional mood of a song?
+2. Does personalized mood-based music discovery lead to higher user engagement on streaming platforms?
+3. How can mood based classification improve the way users discover and organize music?
 ## 3. Data Preparation
 ### 3.1 Data Cleaning
 
