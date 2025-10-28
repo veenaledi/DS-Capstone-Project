@@ -38,6 +38,16 @@ __Specific Objectives__
 1. How accurately can acoustic features be used to classify the emotional mood of a song?
 2. Does personalized mood-based music discovery lead to higher user engagement on streaming platforms?
 3. How can mood based classification improve the way users discover and organize music?
+
+*__1.7 Success Criteria__*
+
+1. Accurate Mood Classification - The system achieves a high accuracy rate in classifying songs into predefined emotional categories based on acoustic features.
+2. Improved User Experience - Users will report reduced time and effort in creating mood based playlists and express higher satisfaction with music recommendations through surveys or usability testing.
+3. Increased Engagement Metrics - Streaming platforms or test environments will show measurable improvements in user engagement, e.g. longer listening sessions, more playlist saves, or higher interaction rates, when Auraly is integrated.
+
+## 2. Data Understanding
+We imported python libraries from panda, numpy, matplotlib, seaborn, colection, sklearncontrctions and others which we used to help understand and read our data.
+Data is from Kaggle and the dataset is called `278k_labelled_uri.csv.zip`
 ## 3. Data Preparation
 ### 3.1 Data Cleaning
 
