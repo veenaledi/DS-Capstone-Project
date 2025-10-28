@@ -46,8 +46,25 @@ __Specific Objectives__
 3. Increased Engagement Metrics - Streaming platforms or test environments will show measurable improvements in user engagement, e.g. longer listening sessions, more playlist saves, or higher interaction rates, when Auraly is integrated.
 
 ## 2. Data Understanding
+
+*__2.1 Imporrting libraries__*
+
 We imported python libraries from panda, numpy, matplotlib, seaborn, colection, sklearncontrctions and others which we used to help understand and read our data.
-Data is from Kaggle and the dataset is called `278k_labelled_uri.csv.zip`
+
+*__2.2 Loading the data__*
+
+Data is from Kaggle and the dataset is called `278k_labelled_uri.csv.zip` Its a music based dataset.
+
+*__2.3 Initial Exploration And EDA__*
+*__2.3.2 Dataset summary__*
+
+The dataset contains 277938 rows and 15 columns. It had no missing or duplicated values. 14 columns were numerical and 1 text.
+The features used in this dataset include 'danceability', 'energy', 'loudness', 'speechiness' 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', and 'duration (ms)'
+
+Visualisaations were created so as to see the datatypes and label distribution. A statistical summary table was made to show the statistics of the audio features of the dataset.
+
+A boxplot was made to show the outliers of the audio features
+
 ## 3. Data Preparation
 ### 3.1 Data Cleaning
 
