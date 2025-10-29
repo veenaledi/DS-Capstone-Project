@@ -45,7 +45,26 @@ __Specific Objectives__
 2. Improved User Experience - Users will report reduced time and effort in creating mood based playlists and express higher satisfaction with music recommendations through surveys or usability testing.
 3. Increased Engagement Metrics - Streaming platforms or test environments will show measurable improvements in user engagement, e.g. longer listening sessions, more playlist saves, or higher interaction rates, when Auraly is integrated.
 
+# NOTEBOOKS
+
+To begin with our project will involve 3 notebooks that will help us achieve our objective. They will be necessary to be able to classify moods in music
+
+Each notebook produces a key artifact used in deployment:
+
+• __Notebook 1__ — Mood Model: Creates the XGBoost model (`auraly_xgb_model.pkl`), label map
+(`label_map.json`), and optional scaler. These files are used to classify songs by mood.
+
+• __Notebook 2__ — Clean Spotify Dataset: Produces the cleaned CSV
+(`spotify_mood_dataset.csv`) that contains all songs with predicted moods. This acts as the
+source for playlist generation.
+
+• __Notebook 3__ — Short Phrases: Generates TF-IDF files (`tfidf_vectorizer.pkl`,
+`tfidf_phrase_matrix.pkl`, and `tfidf_phrases_lookup.csv`) to map user text inputs (e.g. 'morning
+
 ## 2. Data Understanding
+
+
+focus') to moods.
 
 *__2.1 Imporrting libraries__*
 
@@ -53,7 +72,7 @@ We imported python libraries from panda, numpy, matplotlib, seaborn, colection, 
 
 *__2.2 Loading the data__*
 
-Data is from Kaggle and the dataset is called `278k_labelled_uri.csv.zip` Its a music based dataset.
+Data is from Kaggle and the dataset is called `278k_labelled_uri.csv.zip`.
 
 *__2.3 Initial Exploration And EDA__*
 *__2.3.2 Dataset summary__*
