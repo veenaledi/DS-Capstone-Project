@@ -158,7 +158,7 @@ A boxplot was made to show the outliers of the audio features
 
 ### Project Collaborators
 1. Neema Naledi (naledineema@gmail.com)
-2. Henia June (heniajune@gmail.com)
+2. June Henia (heniajune@gmail.com)
 3. Morgan Amwai (morganamwai@gmail.com)
 4. Brian Kimathi (machingabrian@gmail.com)
 5. Mark Muriithi (mark.muriithi@gmail.com)
