@@ -51,20 +51,13 @@ To begin with our project will involve 3 notebooks that will help us achieve our
 
 Each notebook produces a key artifact used in deployment:
 
-• __Notebook 1__ — Mood Model: Creates the XGBoost model (`auraly_xgb_model.pkl`), label map
-(`label_map.json`), and optional scaler. These files are used to classify songs by mood.
+• __Notebook 1 - Music.ipynb__ — Mood Model: Creates the model, label map, and optional scaler. These files are used to classify songs by mood.
 
-• __Notebook 2__ — Clean Spotify Dataset: Produces the cleaned CSV
-(`spotify_mood_dataset.csv`) that contains all songs with predicted moods. This acts as the
-source for playlist generation.
+• __Notebook 2 - Tracks ipynb__ — Clean Spotify Dataset: Produces the cleaned CSV (`spotify_mood_dataset.csv`) from Spotify_Youtube.csv dataset from kaggle that contains all songs with predicted moods. This acts as the source for playlist generation.
 
-• __Notebook 3__ — Short Phrases: Generates TF-IDF files (`tfidf_vectorizer.pkl`,
-`tfidf_phrase_matrix.pkl`, and `tfidf_phrases_lookup.csv`) to map user text inputs (e.g. 'morning
+• __Notebook 3 - Phrases.ipynb__ — Short Phrases: Generates TF-IDF files (`tfidf_vectorizer.pkl`, `tfidf_phrase_matrix.pkl`, and `tfidf_phrases_lookup.csv`) to map user text inputs (e.g. 'morning focus') to moods.
 
 ## 2. Data Understanding
-
-
-focus') to moods.
 
 *__2.1 Imporrting libraries__*
 
