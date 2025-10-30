@@ -65,10 +65,10 @@ We imported python libraries from panda, numpy, matplotlib, seaborn, colection, 
 
 *__2.2 Loading the data__*
 
-Data is from Kaggle and the dataset is called `278k_labelled_uri.csv.zip`.
+The first Notebook's Dataset is from Kaggle and the dataset is called `278k_labelled_uri.csv.zip`.
+
 
 *__2.3 Initial Exploration And EDA__*
-*__2.3.2 Dataset summary__*
 
 The dataset contains 277938 rows and 15 columns. It had no missing or duplicated values. 14 columns were numerical and 1 text.
 The features used in this dataset include 'danceability', 'energy', 'loudness', 'speechiness' 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', and 'duration (ms)'
@@ -80,7 +80,13 @@ A boxplot was made to show the outliers of the audio features
 ## 3. Data Preparation
 ### 3.1 Data Cleaning
 
+The mood labels are as follows:-
+   0: Sad
+   1: Happy
+   2: Energetic
+   3. Calm
 
+ 
 ### 3.2 Data Inspection
 
 
