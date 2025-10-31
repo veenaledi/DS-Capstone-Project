@@ -45,17 +45,6 @@ __Specific Objectives__
 2. Improved User Experience - Users will report reduced time and effort in creating mood based playlists and express higher satisfaction with music recommendations through surveys or usability testing.
 3. Increased Engagement Metrics - Streaming platforms or test environments will show measurable improvements in user engagement, e.g. longer listening sessions, more playlist saves, or higher interaction rates, when Auraly is integrated.
 
-# NOTEBOOKS
-
-To begin with our project will involve 3 notebooks that will help us achieve our objective. They will be necessary to be able to classify moods in music
-
-Each notebook produces a key artifact used in deployment:
-
-• __Notebook 1 - Music.ipynb__ — Mood Model: Creates the model, label map, and optional scaler. These files are used to classify songs by mood.
-
-• __Notebook 2 - Tracks ipynb__ — Clean Spotify Dataset: Produces the cleaned CSV (`spotify_mood_dataset.csv`) from Spotify_Youtube.csv dataset from kaggle that contains all songs with predicted moods. This acts as the source for playlist generation.
-
-• __Notebook 3 - Phrases.ipynb__ — Short Phrases: Generates TF-IDF files (`tfidf_vectorizer.pkl`, `tfidf_phrase_matrix.pkl`, and `tfidf_phrases_lookup.csv`) to map user text inputs (e.g. 'morning focus') to moods.
 
 ## 2. Data Understanding
 
